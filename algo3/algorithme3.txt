@@ -1,0 +1,19 @@
+
+PROCEDURE Dot product(var v1,v2:ARRAY OF INTEGER[n]
+Begin
+var ps:integer;
+for i from 0 to n step 1 do 
+ps=ps+v1[i]*v2[i];
+write(ps)
+End
+
+ALGORITHM Dot product
+Var 
+v1,v2:Array of integer[n]
+begin 
+if(ps=0)then
+write(v1 and v2 are orthogonal);
+else
+write(v1 and v2 are not orthogonal);
+end
+
